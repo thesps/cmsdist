@@ -8,7 +8,7 @@ index 1806583e6b..e56e2a0589 100644
              }
 +
 +            PYBIND11_WARNING_PUSH
-+#if defined(__GNUC__) && __GNUC__ == 12
++#if defined(__GNUC__) && __GNUC__ >= 12
 +            // When using GCC 12 these warnings are disabled as they trigger
 +            // false positive warnings.  Discussed here:
 +            // https://gcc.gnu.org/bugzilla/show_bug.cgi?id=115824.
